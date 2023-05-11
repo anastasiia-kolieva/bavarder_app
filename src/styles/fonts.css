@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../../public/fonts/Roboto-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('../../public/fonts/Poppins-Light.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../../public/fonts/Poppins-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../../public/fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-display: swap;
+}

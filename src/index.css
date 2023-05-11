@@ -1,0 +1,73 @@
+@import-normalize;
+@import 'styles/fonts.css';
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* colors */
+:root {
+  --white: #ffffff;
+  --light-white: #FDFDFE;
+  --dark-white: #F2F6F7;
+  --black: #000;
+  --blue: #6588DE;
+  --light-blue: #E3F6FC;
+  --orange: #F3BA4A;
+  --light-grey: #96A9BA;
+  --grey: #52585D;
+  --green: #46D362;
+  --red: #FD2828;
+  --purple: #A47BD7;
+  --dark-purple: #738BE0;
+  --light-pink: #F7B6B4;
+}
+
+/* fonts */
+:root {
+  --roboto-regular: 'RobotoRegular', sans-serif;
+  --poppins-light: 'PoppinsLight', sans-serif;
+  --poppins-regular: 'PoppinsRegular', sans-serif;
+  --poppins-semibold: 'PoppinsSemiBold', sans-serif;
+}
