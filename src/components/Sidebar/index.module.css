@@ -1,5 +1,6 @@
 .root{
     height: 100vh;
+    min-width: 350px;
     position: sticky;
     top: 0;
     display: flex;
@@ -7,8 +8,5 @@
 }
 
 .profileWrapper{
-    background: var(--light-blue);
-    border-bottom-right-radius: 14px;
-    border-bottom-left-radius: 14px;
-    padding: 28px 30px 26px 36px;
+    margin-bottom: 10px;
 }

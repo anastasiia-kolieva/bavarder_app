@@ -1,0 +1,31 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    background: var(--light-blue);
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding: 28px 30px 26px 36px;
+}
+
+.logoWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.logoImg{
+    max-width: 44px;
+    max-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--orange);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.logoImg img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
