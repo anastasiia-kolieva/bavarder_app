@@ -10,3 +10,7 @@
 .profileWrapper{
     margin-bottom: 10px;
 }
+
+.chatListWrapper{
+    height: 100%;
+}

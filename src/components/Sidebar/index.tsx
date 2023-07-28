@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from './../Profile/index'
+import ChatList from './../ChatList/index'
 
 import styles from './index.module.css'
 
@@ -9,7 +10,9 @@ const Sidebar = () => {
       <div className={styles.profileWrapper}>
         <Profile/>
       </div>
-      <div className={styles.chatListWrapper}></div>
+      <div className={styles.chatListWrapper}>
+        <ChatList/>
+      </div>
     </div>
   )
 }

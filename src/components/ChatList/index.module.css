@@ -1,0 +1,9 @@
+.root{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--light-blue);
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    padding: 24px 20px;
+}
