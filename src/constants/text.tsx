@@ -1,3 +1,16 @@
+import alenaRhiel from '../images/chatImages/alena_rhiel.png';
+import phillip from '../images/chatImages/phillip.png';
+import alfredo from '../images/chatImages/alfredo.png';
+import kierra from '../images/chatImages/kierra.png';
+import jocelyn from '../images/chatImages/jocelyn.png';
+import davis from '../images/chatImages/davis.png';
+import rayna from '../images/chatImages/rayna.png';
+import james from '../images/chatImages/james.png';
+import jaylon from '../images/chatImages/jaylon.png';
+
+// TODO: Fix generatind frame color / remove this at backend
+import generateFrameColor from '../utils/generateFrameColor';
+
 export const STATUS_MENU_LIST = [
   { path: 1, label: 'Working' },
   { path: 2, label: 'Available' },
@@ -9,63 +22,72 @@ export const CHAT_USERS_LIST = [
     id: 1,
     name: 'Alena Rhiel',
     surname: 'Madsen',
-    avatar: '',
-    status: 'Available'
+    avatar: alenaRhiel,
+    status: 'available',
+    frameColor: generateFrameColor()
   },
   {
     id: 2,
     name: 'Phillip',
     surname: 'Torff',
-    avatar: '',
-    status: 'Not available'
+    avatar: phillip,
+    status: 'notAvailable',
+    frameColor: generateFrameColor()
   },
   {
     id: 3,
     name: 'Alfredo',
     surname: 'Vetrovs',
-    avatar: '',
-    status: 'Available'
+    avatar: alfredo,
+    status: 'available',
+    frameColor: generateFrameColor()
   },
   {
     id: 4,
     name: 'Kierra',
     surname: 'Press',
-    avatar: '',
-    status: 'Working'
+    avatar: kierra,
+    status: 'working',
+    frameColor: generateFrameColor()
   },
   {
     id: 5,
     name: 'Jocelyn',
     surname: 'Donin',
-    avatar: '',
-    status: 'Working'
+    avatar: jocelyn,
+    status: 'working',
+    frameColor: generateFrameColor()
   },
   {
     id: 6,
     name: 'Davis',
     surname: 'Dorwart',
-    avatar: '',
-    status: 'Available'
+    avatar: davis,
+    status: 'available',
+    frameColor: generateFrameColor()
   },
   {
     id: 7,
     name: 'Rayna',
     surname: 'Bator',
-    avatar: '',
-    status: 'Working'
+    avatar: rayna,
+    status: 'working',
+    frameColor: generateFrameColor()
   },
   {
     id: 8,
     name: 'James',
     surname: 'Kenter',
-    avatar: '',
-    status: 'Available'
+    avatar: james,
+    status: 'available',
+    frameColor: generateFrameColor()
   },
   {
     id: 9,
     name: 'Jaylon',
     surname: 'Botosh',
-    avatar: '',
-    status: 'Available'
+    avatar: jaylon,
+    status: 'available',
+    frameColor: generateFrameColor()
   }
 ];

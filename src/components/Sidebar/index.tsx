@@ -4,7 +4,7 @@ import ChatList from './../ChatList/index'
 
 import styles from './index.module.css'
 
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
   return (
     <div className={styles.root}>
       <div className={styles.profileWrapper}>

@@ -14,7 +14,7 @@ import { STATUS_MENU_LIST } from '../../constants/text'
 // TODO: Fix name import from backend
 const PROFILE_NAME = 'Mehmet Revnaki';
 
-const Profile = () => {
+const Profile: React.FC = () => {
   const [isStatusDropdownOpen, setIsStatusDropdownOpen] = useState(false);
   const addStatusDropdownRef = React.useRef<HTMLInputElement>(null);
 
